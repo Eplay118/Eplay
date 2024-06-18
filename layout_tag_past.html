@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,h1{
+        margin: 0%;
+    }
+    #wrapper{
+        width: 80%;
+        background-color: rgb(210, 233, 81);
+        margin: 0% auto;
+    }
+    header{
+        height: 300px;
+        background-color: rgb(169, 114, 231);
+    }
+    nav{
+        height: 100px;
+        background-color: rgb(125, 201, 201);
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    aside{
+        height: 600px;
+        width: 20%;
+        background-color: rgb(130, 240, 140);
+    }
+    section{
+        height: 600px;
+        width: 80%;
+        background-color: rgb(238, 174, 114);
+    }
+    .sub_section{
+        width: 95%;
+        height: 265px;
+        margin: 10px auto;
+        background-color: rgb(236, 114, 114);
+        border-radius: 20px; 
+        padding: 10px;
+    }
+    footer{
+        height: 100px;
+        background-color: rgb(226, 140, 222);
+    }
+    .inner {
+            width: 100px;
+            height: 150px;
+            margin: 10px;
+            font-size: 3em;
+            color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .outter {
+            width: 80%;
+            margin: 0% auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+</style>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+            <h1>Nav</h1>
+        </nav>
+        <main>
+            <aside>
+                <h1>aside</h1>
+            </aside>
+            <section>
+                <section class="sub_section">
+                    <div class="outter">
+                        <div class="inner">
+                            <figure>
+                                <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                                <figcaption>Cat</figcaption>
+                            </figure>
+                        </div>
+                        <div class="inner">
+                            <figure>
+                                <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                                <figcaption>Cat</figcaption>
+                            </figure>
+                        </div>
+                        <div class="inner">
+                            <figure>
+                                <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                                <figcaption>Cat</figcaption>
+                            </figure>
+                        </div>
+                        <div class="inner">
+                            <figure>
+                                <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                                <figcaption>Cat</figcaption>
+                            </figure>
+                        </div>
+                        <div class="inner"><figure>
+                            <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                            <figcaption>Cat</figcaption>
+                        </figure>
+                        </div>
+                        <div class="inner"><figure>
+                            <img src="img/small.big-cat.png" alt="" width="50px" height="50px">
+                            <figcaption>Cat</figcaption>
+                        </figure>
+                        </div>
+                    </div>
+                    <div class="outter">
+
+                    </div>
+                </section>
+                <section class="sub_section">
+                    <h1>section2</h1>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+</body>
+</html>
